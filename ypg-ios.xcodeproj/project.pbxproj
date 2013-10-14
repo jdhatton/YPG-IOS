@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895C0714180C73D2000B2976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0713180C73D2000B2976 /* UIKit.framework */; };
+		895C0716180C73D2000B2976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0715180C73D2000B2976 /* Foundation.framework */; };
+		895C0718180C73D2000B2976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0717180C73D2000B2976 /* CoreGraphics.framework */; };
+		895C071E180C73D2000B2976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 895C071C180C73D2000B2976 /* InfoPlist.strings */; };
+		895C0720180C73D2000B2976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C071F180C73D2000B2976 /* main.m */; };
+		895C0724180C73D2000B2976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0723180C73D2000B2976 /* AppDelegate.m */; };
+		895C072C180C73D2000B2976 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C072B180C73D2000B2976 /* SenTestingKit.framework */; };
+		895C072D180C73D2000B2976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0713180C73D2000B2976 /* UIKit.framework */; };
+		895C072E180C73D2000B2976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0715180C73D2000B2976 /* Foundation.framework */; };
+		895C0736180C73D2000B2976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 895C0734180C73D2000B2976 /* InfoPlist.strings */; };
+		895C0739180C73D2000B2976 /* ypg_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0738180C73D2000B2976 /* ypg_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895C072F180C73D2000B2976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895C0706180C73D2000B2976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895C070E180C73D2000B2976;
+			remoteInfo = "ypg-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895C070F180C73D2000B2976 /* ypg-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ypg-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895C0713180C73D2000B2976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		895C0715180C73D2000B2976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		895C0717180C73D2000B2976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		895C071B180C73D2000B2976 /* ypg-ios-Info.plist */ = {isa = PBXFileReference; path = "ypg-ios-Info.plist"; sourceTree = "<group>"; };
+		895C071D180C73D2000B2976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		895C071F180C73D2000B2976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		895C0721180C73D2000B2976 /* ypg-ios-Prefix.pch */ = {isa = PBXFileReference; path = "ypg-ios-Prefix.pch"; sourceTree = "<group>"; };
+		895C0722180C73D2000B2976 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		895C0723180C73D2000B2976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		895C072A180C73D2000B2976 /* ypg-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ypg-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		895C072B180C73D2000B2976 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		895C0733180C73D2000B2976 /* ypg-iosTests-Info.plist */ = {isa = PBXFileReference; path = "ypg-iosTests-Info.plist"; sourceTree = "<group>"; };
+		895C0735180C73D2000B2976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		895C0737180C73D2000B2976 /* ypg_iosTests.h */ = {isa = PBXFileReference; path = ypg_iosTests.h; sourceTree = "<group>"; };
+		895C0738180C73D2000B2976 /* ypg_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ypg_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895C070C180C73D2000B2976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C0714180C73D2000B2976 /* UIKit.framework in Frameworks */,
+				895C0716180C73D2000B2976 /* Foundation.framework in Frameworks */,
+				895C0718180C73D2000B2976 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895C0726180C73D2000B2976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C072C180C73D2000B2976 /* SenTestingKit.framework in Frameworks */,
+				895C072D180C73D2000B2976 /* UIKit.framework in Frameworks */,
+				895C072E180C73D2000B2976 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895C0704180C73D2000B2976 = {
+			isa = PBXGroup;
+			children = (
+				895C0719180C73D2000B2976 /* ypg-ios */,
+				895C0731180C73D2000B2976 /* ypg-iosTests */,
+				895C0712180C73D2000B2976 /* Frameworks */,
+				895C0710180C73D2000B2976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895C0710180C73D2000B2976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895C070F180C73D2000B2976 /* ypg-ios.app */,
+				895C072A180C73D2000B2976 /* ypg-iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895C0712180C73D2000B2976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				895C0713180C73D2000B2976 /* UIKit.framework */,
+				895C0715180C73D2000B2976 /* Foundation.framework */,
+				895C0717180C73D2000B2976 /* CoreGraphics.framework */,
+				895C072B180C73D2000B2976 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		895C0719180C73D2000B2976 /* ypg-ios */ = {
+			isa = PBXGroup;
+			children = (
+				895C0722180C73D2000B2976 /* AppDelegate.h */,
+				895C0723180C73D2000B2976 /* AppDelegate.m */,
+				895C071A180C73D2000B2976 /* Supporting Files */,
+			);
+			path = "ypg-ios";
+			sourceTree = "<group>";
+		};
+		895C071A180C73D2000B2976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				895C071B180C73D2000B2976 /* ypg-ios-Info.plist */,
+				895C071C180C73D2000B2976 /* InfoPlist.strings */,
+				895C071F180C73D2000B2976 /* main.m */,
+				895C0721180C73D2000B2976 /* ypg-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		895C0731180C73D2000B2976 /* ypg-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				895C0737180C73D2000B2976 /* ypg_iosTests.h */,
+				895C0738180C73D2000B2976 /* ypg_iosTests.m */,
+				895C0732180C73D2000B2976 /* Supporting Files */,
+			);
+			path = "ypg-iosTests";
+			sourceTree = "<group>";
+		};
+		895C0732180C73D2000B2976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				895C0733180C73D2000B2976 /* ypg-iosTests-Info.plist */,
+				895C0734180C73D2000B2976 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895C070E180C73D2000B2976 /* ypg-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895C073C180C73D2000B2976 /* Build configuration list for PBXNativeTarget "ypg-ios" */;
+			buildPhases = (
+				895C070B180C73D2000B2976 /* Sources */,
+				895C070C180C73D2000B2976 /* Frameworks */,
+				895C070D180C73D2000B2976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ypg-ios";
+			productName = "ypg-ios";
+			productReference = 895C070F180C73D2000B2976 /* ypg-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895C0729180C73D2000B2976 /* ypg-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895C073F180C73D2000B2976 /* Build configuration list for PBXNativeTarget "ypg-iosTests" */;
+			buildPhases = (
+				895C0725180C73D2000B2976 /* Sources */,
+				895C0726180C73D2000B2976 /* Frameworks */,
+				895C0727180C73D2000B2976 /* Resources */,
+				895C0728180C73D2000B2976 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895C0730180C73D2000B2976 /* PBXTargetDependency */,
+			);
+			name = "ypg-iosTests";
+			productName = "ypg-iosTests";
+			productReference = 895C072A180C73D2000B2976 /* ypg-iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895C0706180C73D2000B2976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 895C0709180C73D2000B2976 /* Build configuration list for PBXProject "ypg-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 895C0704180C73D2000B2976;
+			productRefGroup = 895C0710180C73D2000B2976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895C070E180C73D2000B2976 /* ypg-ios */,
+				895C0729180C73D2000B2976 /* ypg-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895C070D180C73D2000B2976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C071E180C73D2000B2976 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895C0727180C73D2000B2976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C0736180C73D2000B2976 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		895C0728180C73D2000B2976 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895C070B180C73D2000B2976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C0720180C73D2000B2976 /* main.m in Sources */,
+				895C0724180C73D2000B2976 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895C0725180C73D2000B2976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895C0739180C73D2000B2976 /* ypg_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895C0730180C73D2000B2976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895C070E180C73D2000B2976 /* ypg-ios */;
+			targetProxy = 895C072F180C73D2000B2976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		895C071C180C73D2000B2976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895C071D180C73D2000B2976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		895C0734180C73D2000B2976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895C0735180C73D2000B2976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895C073A180C73D2000B2976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895C073B180C73D2000B2976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895C073D180C73D2000B2976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ypg-ios/ypg-ios-Prefix.pch";
+				INFOPLIST_FILE = "ypg-ios/ypg-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		895C073E180C73D2000B2976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ypg-ios/ypg-ios-Prefix.pch";
+				INFOPLIST_FILE = "ypg-ios/ypg-ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		895C0740180C73D2000B2976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ypg-ios.app/ypg-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ypg-ios/ypg-ios-Prefix.pch";
+				INFOPLIST_FILE = "ypg-iosTests/ypg-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		895C0741180C73D2000B2976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ypg-ios.app/ypg-ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ypg-ios/ypg-ios-Prefix.pch";
+				INFOPLIST_FILE = "ypg-iosTests/ypg-iosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895C0709180C73D2000B2976 /* Build configuration list for PBXProject "ypg-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895C073A180C73D2000B2976 /* Debug */,
+				895C073B180C73D2000B2976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895C073C180C73D2000B2976 /* Build configuration list for PBXNativeTarget "ypg-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895C073D180C73D2000B2976 /* Debug */,
+				895C073E180C73D2000B2976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		895C073F180C73D2000B2976 /* Build configuration list for PBXNativeTarget "ypg-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895C0740180C73D2000B2976 /* Debug */,
+				895C0741180C73D2000B2976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895C0706180C73D2000B2976 /* Project object */;
+}
