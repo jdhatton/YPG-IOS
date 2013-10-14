@@ -35,17 +35,17 @@
 		895C0713180C73D2000B2976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		895C0715180C73D2000B2976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		895C0717180C73D2000B2976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		895C071B180C73D2000B2976 /* ypg-ios-Info.plist */ = {isa = PBXFileReference; path = "ypg-ios-Info.plist"; sourceTree = "<group>"; };
+		895C071B180C73D2000B2976 /* ypg-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ypg-ios-Info.plist"; sourceTree = "<group>"; };
 		895C071D180C73D2000B2976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		895C071F180C73D2000B2976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		895C0721180C73D2000B2976 /* ypg-ios-Prefix.pch */ = {isa = PBXFileReference; path = "ypg-ios-Prefix.pch"; sourceTree = "<group>"; };
-		895C0722180C73D2000B2976 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		895C0721180C73D2000B2976 /* ypg-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ypg-ios-Prefix.pch"; sourceTree = "<group>"; };
+		895C0722180C73D2000B2976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		895C0723180C73D2000B2976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		895C072A180C73D2000B2976 /* ypg-iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ypg-iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895C072B180C73D2000B2976 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		895C0733180C73D2000B2976 /* ypg-iosTests-Info.plist */ = {isa = PBXFileReference; path = "ypg-iosTests-Info.plist"; sourceTree = "<group>"; };
+		895C0733180C73D2000B2976 /* ypg-iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ypg-iosTests-Info.plist"; sourceTree = "<group>"; };
 		895C0735180C73D2000B2976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		895C0737180C73D2000B2976 /* ypg_iosTests.h */ = {isa = PBXFileReference; path = ypg_iosTests.h; sourceTree = "<group>"; };
+		895C0737180C73D2000B2976 /* ypg_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ypg_iosTests.h; sourceTree = "<group>"; };
 		895C0738180C73D2000B2976 /* ypg_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ypg_iosTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
