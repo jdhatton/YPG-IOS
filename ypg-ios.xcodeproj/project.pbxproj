@@ -18,6 +18,9 @@
 		895C072E180C73D2000B2976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0715180C73D2000B2976 /* Foundation.framework */; };
 		895C0736180C73D2000B2976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 895C0734180C73D2000B2976 /* InfoPlist.strings */; };
 		895C0739180C73D2000B2976 /* ypg_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895C0738180C73D2000B2976 /* ypg_iosTests.m */; };
+		89E407591887345A0082C9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E407581887345A0082C9EF /* Main.storyboard */; };
+		89E4075B188864550082C9EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E4075A188864550082C9EF /* Default-568h@2x.png */; };
+		89E4075D188867960082C9EF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 89E4075C188867960082C9EF /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		895C0735180C73D2000B2976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		895C0737180C73D2000B2976 /* ypg_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ypg_iosTests.h; sourceTree = "<group>"; };
 		895C0738180C73D2000B2976 /* ypg_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ypg_iosTests.m; sourceTree = "<group>"; };
+		89E407581887345A0082C9EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		89E4075A188864550082C9EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89E4075C188867960082C9EF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		895C0704180C73D2000B2976 = {
 			isa = PBXGroup;
 			children = (
+				89E4075A188864550082C9EF /* Default-568h@2x.png */,
 				895C0719180C73D2000B2976 /* ypg-ios */,
 				895C0731180C73D2000B2976 /* ypg-iosTests */,
 				895C0712180C73D2000B2976 /* Frameworks */,
@@ -106,8 +113,10 @@
 		895C0719180C73D2000B2976 /* ypg-ios */ = {
 			isa = PBXGroup;
 			children = (
+				89E4075E188867AC0082C9EF /* images */,
 				895C0722180C73D2000B2976 /* AppDelegate.h */,
 				895C0723180C73D2000B2976 /* AppDelegate.m */,
+				89E407581887345A0082C9EF /* Main.storyboard */,
 				895C071A180C73D2000B2976 /* Supporting Files */,
 			);
 			path = "ypg-ios";
@@ -141,6 +150,14 @@
 				895C0734180C73D2000B2976 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89E4075E188867AC0082C9EF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				89E4075C188867960082C9EF /* logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +230,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E4075D188867960082C9EF /* logo.png in Resources */,
 				895C071E180C73D2000B2976 /* InfoPlist.strings in Resources */,
+				89E407591887345A0082C9EF /* Main.storyboard in Resources */,
+				89E4075B188864550082C9EF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +433,7 @@
 				895C073E180C73D2000B2976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		895C073F180C73D2000B2976 /* Build configuration list for PBXNativeTarget "ypg-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +442,7 @@
 				895C0741180C73D2000B2976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
