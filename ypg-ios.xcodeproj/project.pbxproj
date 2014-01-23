@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8939CBDA1891A22500C3428E /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939CBD91891A22500C3428E /* CustomButton.m */; };
+		8939CBDD1891ADD500C3428E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8939CBDC1891ADD500C3428E /* ViewController.m */; };
 		895C0714180C73D2000B2976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0713180C73D2000B2976 /* UIKit.framework */; };
 		895C0716180C73D2000B2976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0715180C73D2000B2976 /* Foundation.framework */; };
 		895C0718180C73D2000B2976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895C0717180C73D2000B2976 /* CoreGraphics.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8939CBD81891A22500C3428E /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		8939CBD91891A22500C3428E /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		8939CBDB1891ADD500C3428E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8939CBDC1891ADD500C3428E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		895C070F180C73D2000B2976 /* ypg-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ypg-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895C0713180C73D2000B2976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		895C0715180C73D2000B2976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,11 +119,15 @@
 		895C0719180C73D2000B2976 /* ypg-ios */ = {
 			isa = PBXGroup;
 			children = (
+				8939CBD81891A22500C3428E /* CustomButton.h */,
+				8939CBD91891A22500C3428E /* CustomButton.m */,
 				89E4075E188867AC0082C9EF /* images */,
 				895C0722180C73D2000B2976 /* AppDelegate.h */,
 				895C0723180C73D2000B2976 /* AppDelegate.m */,
 				89E407581887345A0082C9EF /* Main.storyboard */,
 				895C071A180C73D2000B2976 /* Supporting Files */,
+				8939CBDB1891ADD500C3428E /* ViewController.h */,
+				8939CBDC1891ADD500C3428E /* ViewController.m */,
 			);
 			path = "ypg-ios";
 			sourceTree = "<group>";
@@ -268,7 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8939CBDA1891A22500C3428E /* CustomButton.m in Sources */,
 				895C0720180C73D2000B2976 /* main.m in Sources */,
+				8939CBDD1891ADD500C3428E /* ViewController.m in Sources */,
 				895C0724180C73D2000B2976 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
